@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+body {
+    font-family: 'Baumans';
+    font-weight: lighter;
+    background-color: #080708;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.titlecont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 10px;
+    font-size: 25px;
+}
+
+.formwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DF2935;
+}
