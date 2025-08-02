@@ -44,13 +44,14 @@ body {
     align-items: center;
     background-color: #DF2935;
     width: 1000px;
-    height: 800px;
+    height: 900px;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 .toptxt {
     display: flex;
-    margin-top: -80px;
+    margin-top: -40px;
     font-size: 50px;
     margin-left: -120px;
 }
@@ -71,6 +72,21 @@ body {
     text-decoration: underline;
     text-underline-offset: 0.2rem;
     font-weight: 300;
+}
+
+.signuptxt {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.signlink {
+    text-decoration: underline;
+    color: #24E9FF;
+}
+
+.guesttxt {
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .inputform {
@@ -110,4 +126,29 @@ body {
     max-width: 1000px;
     font-size: 40px;
     margin: auto;
+}
+
+.foot {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.footlogo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.footalign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foottop {
+    margin-bottom: 60px;
 }

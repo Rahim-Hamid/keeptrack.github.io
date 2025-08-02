@@ -24,8 +24,8 @@ function Form() {
 
                 </form>
 
-                <h3>Don't have an account? <span>Sign Up!</span></h3>
-                <h4>Sign in as guest</h4>
+                <h3 className={styles.signuptxt}>Don't have an account? <span class={styles.signlink}>Sign Up!</span></h3>
+                <h4 className={styles.guesttxt}>Sign in as guest</h4>
 
             </div>
 
