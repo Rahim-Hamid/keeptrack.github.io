@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+body {
+    font-family: 'Baumans';
+    font-weight: lighter;
+    background-color: #080708;
+    color: #FFFFFF;
+}
+
+.gridcontainer {
+    display: flex;
+    width: 70%;
+    margin-left: 100px;
+}
+
+
+.viewbutton {
+    width: 120px;
+    height: 60px;
+    margin-top: 24px;
+    margin-left: -40px;
+    background-color: #DF2935;
+    color: #FFFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: 'Baumans';
+
+}
+
+.viewbutton:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.countgrid {
+    margin-top: 140px;
+    margin-left: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start
+}
+
+.griditem {
+    flex-basis: 25%; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    padding: 20px;
+    margin: 40px; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #FDCA40;
+    max-width: 400px;
+    max-height: 400px;
+}
