@@ -1,5 +1,4 @@
 import styles from '../styles/sidebar.module.css'
-import menubutton from '../img/menubutton.png'
 import logo from '../img/logo.png'
 import createicon from '../img/create.png'
 import foldericon from '../img/folder.png'
@@ -13,13 +12,9 @@ import settingsicon from '../img/settingsicon.png'
 export default function Sidebar() {
     return (
         <>
+
         <div className={styles.sidecontainer}>
-
-            <div className={styles.toptxt}>
-                <h2>Close Menu</h2>
-                <img className={styles.menuButton} src={menubutton} alt='menu button'/>
-
-            </div>
+            
 
             <img className={styles.logoimg} src={logo} alt='company logo'/>
 
@@ -48,7 +43,7 @@ export default function Sidebar() {
                 <div className={styles.middlecontainer}>
                     <div className={styles.imgtxt}>
                         <img className={styles.staricon} src={staricon} alt ='star icon to view starred countdowns'/>
-                        <h4>View Starred Countdowns</h4>
+                        <h4>View Starred</h4>
                         </div>
 
                             <div className={styles.addcontainer}>
@@ -116,9 +111,10 @@ export default function Sidebar() {
 
                 </div>
 
+            
             </div>
-
-        </div>
-        </>
+            </div>
+            </>
+        
     )
 }
