@@ -12,7 +12,6 @@ import settingsicon from '../img/settingsicon.png'
 export default function Sidebar() {
     return (
         <>
-
         <div className={styles.sidecontainer}>
             
 
@@ -62,9 +61,10 @@ export default function Sidebar() {
                                     
                                 </div>
                                 <p>10 Days, 7 Hours, 02 Minutes</p>
+                                <h5>View More...</h5>
                                 </div>
 
-                                <h5>View More...</h5>
+                                
 
                             </div>
                     

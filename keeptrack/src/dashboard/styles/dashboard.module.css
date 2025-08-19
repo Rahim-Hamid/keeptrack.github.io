@@ -1,14 +1,7 @@
 .main {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    align-items: stretch;
+    min-height: 100vh;
 }
 
-.buffer {
-    width: 120px;
-}
-
-.mainContent {
-    flex: 1;
-  transition: all 0.3s ease-in-out;
-}
