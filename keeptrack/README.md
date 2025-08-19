@@ -2,6 +2,10 @@ Current Updates:
 
 Login and Dashboard Page FrontEnds are fully finished
 
+Errors:
+
+Sidebar does not scale with increase in height from collapsed rows
+
 TODO:
 
 Associated Page Designs:
